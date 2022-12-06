@@ -1,0 +1,47 @@
+body {
+    padding: 4em;
+    font-family: 'Oswald', 'Source Sans Pro', sans-serif;
+    background-image: linear-gradient(90deg, #ccc, #fff, #ccc);
+    background-repeat: repeat-y;
+  }
+  
+  legend {
+    font-size: 26px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-family: 'Oswald', 'Source Sans Pro', sans-serif;
+    transition: all .4s ease-out;
+  }
+  
+  label:hover {
+    letter-spacing: 10px;
+    transition: all .3s ease-out;
+  }
+  
+  /* classe de erro para os campos */
+  .pure-form input.error,
+  .pure-form input.error:focus {
+    border-color: #e60000;
+    background: #ffe6e6;
+  }
+
+  .button{
+    font-family: 'Oswald', 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-top: 3px;
+    display: inline-block;
+    background-color: rgb(64, 185, 255);
+    color: #FFF;
+    padding: 4px 24px;
+    border-radius: .5rem;
+    transition: .3s;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .button:hover{
+    background-color: rgb(48, 131, 179);
+  }
